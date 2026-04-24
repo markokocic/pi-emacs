@@ -12,12 +12,19 @@
   ],
   "author": "Marko Kocic <marko@euptera.com>",
   "license": "EPL-2.0",
+  "dependencies": {
+    "@mariozechner/pi-ai": "^0.70.2",
+    "@mariozechner/pi-coding-agent": "^0.70.2",
+    "@mariozechner/pi-tui": "^0.67.68"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/markokocic/pi-emacs"
   },
   "type": "module",
   "pi": {
-    "extensions": ["./extensions/index.ts"]
+    "extensions": [
+      "./extensions/index.ts"
+    ]
   }
 }

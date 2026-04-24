@@ -1,5 +1,8 @@
 # pi-emacs
 
+<!-- SPDX-License-Identifier: EPL-2.0 -->
+<!-- Copyright © 2026-present Marko Kocic <marko@euptera.com> -->
+
 A collection of Emacs-related extensions for pi-coding-agent.
 
 ## Installation
