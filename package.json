@@ -1,0 +1,23 @@
+{
+  "name": "pi-emacs",
+  "version": "1.0.0",
+  "description": "A collection of Emacs related pi tools",
+  "keywords": [
+    "pi",
+    "pi-package",
+    "pi-coding-agent",
+    "extension",
+    "tools",
+    "emacs"
+  ],
+  "author": "Marko Kocic <marko@euptera.com>",
+  "license": "EPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/markokocic/pi-emacs"
+  },
+  "type": "module",
+  "pi": {
+    "extensions": ["./extensions/index.ts"]
+  }
+}
