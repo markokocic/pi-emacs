@@ -8,9 +8,9 @@
  * Supports heredoc-style code input with proper error handling.
  */
 
-import { Type } from "@sinclair/typebox";
-import { Text } from "@mariozechner/pi-tui";
-import { defineTool, type ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import { Type } from "typebox";
+import { Text } from "@earendil-works/pi-tui";
+import { defineTool, type ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 

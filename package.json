@@ -1,6 +1,6 @@
 {
   "name": "pi-emacs",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A collection of Emacs related pi tools",
   "keywords": [
     "pi",
@@ -12,10 +12,11 @@
   ],
   "author": "Marko Kocic <marko@euptera.com>",
   "license": "EPL-2.0",
-  "dependencies": {
-    "@mariozechner/pi-ai": "^0.70.2",
-    "@mariozechner/pi-coding-agent": "^0.70.2",
-    "@mariozechner/pi-tui": "^0.67.68"
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
   },
   "repository": {
     "type": "git",
